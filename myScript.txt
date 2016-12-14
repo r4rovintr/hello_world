@@ -1,0 +1,28 @@
+<html>
+
+<body>
+
+<h1>My frist page></h1>
+
+<p>My first Paragraph </p>
+
+<p Id="demo"> </p>
+
+
+
+<script>
+
+<window.alert(5+6);
+
+function MyFunction()
+{
+	document.getElementById("demo").innerHTML=5+6;
+}
+
+</script>
+
+<button type="button" onclick="MyFunction()"></button>
+
+</body>
+
+</html>
